@@ -62,7 +62,7 @@ export const Contact = () => {
 
                         <div className="space-y-6">
                             {[
-                                { icon: <HiOutlineEnvelope />, label: "Email", value: "hello@mandipa.com", href: "mailto:hello@mandipa.com" },
+                                { icon: <HiOutlineEnvelope />, label: "Email", value: "mandipahlabano@gmail.com", href: "mandipahlabano@gmail.com" },
                                 { icon: <HiOutlineChatBubbleLeftRight />, label: "Inquiries", value: "Strategic Consulting", href: "#" },
                                 { icon: <HiOutlineMapPin />, label: "Base", value: "Gaborone, Botswana", href: "#" }
                             ].map((item, idx) => (
@@ -144,7 +144,7 @@ export const Contact = () => {
                                             onFocus={() => setActiveInput('email')}
                                             type="email"
                                             className="w-full bg-black/40 border border-white/10 rounded-2xl px-6 py-4 text-white focus:border-amber-400 outline-none transition-all"
-                                            placeholder="hello@example.com"
+                                            placeholder="example@email.com"
                                             required
                                         />
                                     </div>
