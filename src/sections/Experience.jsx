@@ -1,5 +1,6 @@
 import React from 'react';
 import { HiOutlineBuildingOffice2, HiOutlineAcademicCap, HiOutlineGlobeAlt } from "react-icons/hi2";
+import mandipaPortrait from '@/assets/mandipa.jpeg';
 
 export const Experience = () => {
     const experiences = [
@@ -34,7 +35,7 @@ export const Experience = () => {
             {/* The "Flowing" Background Image */}
             <div className="absolute inset-0 z-0">
                 <img
-                    src="/mandipa.jpeg"
+                    src={mandipaPortrait}
                     alt=""
                     className="w-full h-full object-cover object-center opacity-10 fixed"
                 />

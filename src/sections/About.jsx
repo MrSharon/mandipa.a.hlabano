@@ -1,5 +1,6 @@
 import React from 'react';
 import { HiOutlineScale, HiOutlineLightBulb, HiOutlineSparkles } from "react-icons/hi2";
+import mandipaPortrait from "@/assets/mandipa.jpeg";
 
 export const About = () => {
     return (
@@ -11,7 +12,7 @@ export const About = () => {
             {/* Sustained flowing background portrait */}
             <div className="absolute inset-0 z-0">
                 <img
-                    src="/mandipa.jpeg"
+                    src={mandipaPortrait}
                     alt=""
                     className="w-full h-full object-cover object-center opacity-10 fixed scale-110"
                 />
@@ -28,7 +29,7 @@ export const About = () => {
 
                         <div className="relative rounded-[2rem] overflow-hidden border border-white/10 aspect-[4/5] bg-neutral-900">
                             <img
-                                src="/mandipa.jpeg"
+                                src={mandipaPortrait}
                                 alt="Mandipa Portrait"
                                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                             />

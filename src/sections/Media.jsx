@@ -8,6 +8,7 @@ import {
     HiOutlineCheckCircle,
     HiOutlinePaperAirplane
 } from "react-icons/hi2";
+import mandipaPortrait from "@/assets/mandipa.jpeg";
 
 const YoutubeIcon = (props) => (
     <svg viewBox="0 0 28 28" fill="currentColor" className={props.className} xmlns="http://www.w3.org/2000/svg">
@@ -90,8 +91,8 @@ export const Media = () => {
             />
 
             {/* 2. Flowing Background Image */}
-            <div className="absolute inset-0 z-0 opacity-10 fixed pointer-events-none">
-                <img src="/mandipa.jpeg" alt="" className="w-full min-h-screen object-cover" />
+            <div className="absolute inset-0 z-0 opacity-30 fixed pointer-events-none">
+                <img src={mandipaPortrait} alt="" className="w-full min-h-screen object-cover" />
             </div>
 
             <div className="container mx-auto px-6 relative z-10">
