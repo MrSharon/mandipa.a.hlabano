@@ -40,7 +40,7 @@ export const Contact = () => {
         <section id='contact' className="relative py-24 bg-black overflow-hidden">
             {/* VIBRANT BACKGROUND SYNC: Shifts glow color based on focused input */}
             <div
-                className={`absolute top-1/2 right-0 -translate-y-1/2 w-[600px] h-[600px] rounded-full blur-[150px] pointer-events-none transition-all duration-1000 opacity-20 ${
+                className={`absolute top-1/2 right-0 -translate-y-1/2 w-[700px] h-[700px] rounded-full blur-[150px] pointer-events-none transition-all duration-1000 opacity-20 ${
                     activeInput === 'message' ? 'bg-orange-600' : 'bg-amber-500'
                 }`}
             />
